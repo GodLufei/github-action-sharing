@@ -10,7 +10,7 @@ jobs:
   Greeting:
     runs-on: ubuntu-latest
     env:
-        GREETING: Hello
+      GREETING: Hello
     steps:
       - name: Say Hello
         run: echo '${{env.GREETING}} $FULL_NAME. Today is ${{env.DAY_OF_WEEK}}'
