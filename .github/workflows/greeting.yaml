@@ -15,7 +15,7 @@ jobs:
       - name: Say Hello
         run: echo '${{env.GREETING}} $FULL_NAME. Today is ${{env.DAY_OF_WEEK}}'
         env: 
-          FULL_NAME: 'Hank Yao'
+          FULL_NAME: Hank Yao
 
       - name: Print Ip Addr
         run: ip addr show
