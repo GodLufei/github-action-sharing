@@ -13,7 +13,7 @@ jobs:
       GREETING: Hello
     steps:
       - name: Say Hello
-        run: echo '${{env.GREETING}} $FULL_NAME. Today is ${{env.DAY_OF_WEEK}}'
+        run: echo '${{env.GREETING}} ${{env.FULL_NAME}}. Today is ${{env.DAY_OF_WEEK}}'
         env: 
           FULL_NAME: Hank Yao
 
